@@ -1,0 +1,22 @@
+{ 
+	"config": {
+		"path": "c:\\ListMod.json"
+	},
+	"modulos": [
+		"ModuloCadastro",
+		"ModuloPCP",
+		"ModuloGraficoOnline",
+		"ModuloBI",
+		"ModuloHistorico",
+		"ModuloManutenção",
+		"ModuloRelatorios",
+		"ModuloTimeLine",
+		"ModuloTV",
+		"ModuloLayout",
+		"ModuloCheckList",
+		"ModuloWIP",
+		"ModuloTroubleshooting",
+		"ModuloEmail",
+		"ModuloCEP"
+	]
+}
