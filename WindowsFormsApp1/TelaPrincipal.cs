@@ -374,11 +374,6 @@ INSERT INTO custom (strkey, strvalue) VALUES ('{textoInserto}' , '{valorInserido
             }
             checkedListModulos.ClearSelected();
         }
-
-        private void btnLimpar_Click(object sender, EventArgs e)
-        {
-            checkedListModulos.ClearSelected();
-        }
     }
 }
 
