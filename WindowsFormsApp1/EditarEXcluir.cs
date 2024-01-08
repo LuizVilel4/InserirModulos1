@@ -41,7 +41,7 @@ namespace WindowsFormsApp1 {
                 MessageBox.Show($"Erro ao editar o registro: {ex.Message}");
             }
             
-            Database.Execute(master);
+           
         }
 
         private void bntCancel_Click(object sender, EventArgs e) {
