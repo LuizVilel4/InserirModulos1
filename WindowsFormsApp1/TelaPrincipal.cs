@@ -10,10 +10,6 @@ namespace WindowsFormsApp1
 {
     public partial class TelaPrincipal : Form
     {
-        public string strConn;
-        public string oldkey;
-
-
         public TelaPrincipal()
         {
             InitializeComponent();
