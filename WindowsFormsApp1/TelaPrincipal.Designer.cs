@@ -110,9 +110,9 @@
             this.label5.Location = new System.Drawing.Point(467, 117);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(108, 17);
+            this.label5.Size = new System.Drawing.Size(280, 17);
             this.label5.TabIndex = 27;
-            this.label5.Text = "3 - Clique em Salvar";
+            this.label5.Text = "3 - Após , clique na \"Pasta\" para listar o banco desejado";
             // 
             // label4
             // 
@@ -121,9 +121,9 @@
             this.label4.Location = new System.Drawing.Point(467, 100);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(280, 17);
+            this.label4.Size = new System.Drawing.Size(106, 17);
             this.label4.TabIndex = 26;
-            this.label4.Text = "2 - Após , clique na \"Pasta\" para listar o banco desejado";
+            this.label4.Text = "2 - Clique em salvar";
             // 
             // label3
             // 
