@@ -206,7 +206,6 @@ SELECT name FROM sysdatabases
 
         public void returnList()
         {
-
             if (cbTipo.Text == "SQL")
             {
 
@@ -352,22 +351,32 @@ SELECT * FROM custom WHERE strkey like '%{q}%'
         private void btnInserir_Click(object sender, EventArgs e)
         {
             string textoInserto = checkedListModulos.Text;
-            string valorInserido = ("on");
-            try
+            string valorInserido = "on";
+
+
+            if (textoInserto == "") 
             {
-                string Inserir = $@"
+                MessageBox.Show("Selecione um modulo para inserir", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            else
+            {
+                try
+                {
+                    string Inserir = $@"
 INSERT INTO custom (strkey, strvalue) VALUES ('{textoInserto}' , '{valorInserido}')
 ";
-                Database.Execute(Inserir);
-                MessageBox.Show("Inserido com Sucesso");
-                listModulosAtivos.Items.Clear();
-                returnList();
+                    Database.Execute(Inserir);
+                    MessageBox.Show("Inserido com Sucesso");
+                    listModulosAtivos.Items.Clear();
+                    returnList();
+                }
+                catch (Exception)
+                {
+                    MessageBox.Show("Módulo já existe", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                checkedListModulos.ClearSelected();
             }
-            catch (Exception)
-            {
-                MessageBox.Show("Módulo já existe", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            }
-            checkedListModulos.ClearSelected();
         }
     }
 }
