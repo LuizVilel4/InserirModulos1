@@ -107,34 +107,34 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(467, 117);
+            this.label5.Location = new System.Drawing.Point(424, 100);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(280, 17);
             this.label5.TabIndex = 27;
-            this.label5.Text = "3 - Após , clique na \"Pasta\" para listar o banco desejado";
+            this.label5.Text = "2 - Após , clique na \"Pasta\" para listar o banco desejado";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(467, 100);
+            this.label4.Location = new System.Drawing.Point(424, 117);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(106, 17);
             this.label4.TabIndex = 26;
-            this.label4.Text = "2 - Clique em salvar";
+            this.label4.Text = "3 - Clique em salvar";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(467, 83);
+            this.label3.Location = new System.Drawing.Point(424, 83);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(285, 17);
+            this.label3.Size = new System.Drawing.Size(338, 17);
             this.label3.TabIndex = 25;
-            this.label3.Text = "1 - Clique em conectar após preencher todos os campos";
+            this.label3.Text = "1 - Preencha todos os campos de acordo com seu banco de dados";
             // 
             // txtBase
             // 
@@ -436,7 +436,7 @@
             this.btnInserirManual.Name = "btnInserirManual";
             this.btnInserirManual.Size = new System.Drawing.Size(62, 27);
             this.btnInserirManual.TabIndex = 19;
-            this.btnInserirManual.Text = "inserir";
+            this.btnInserirManual.Text = "Inserir";
             this.btnInserirManual.UseVisualStyleBackColor = true;
             this.btnInserirManual.Click += new System.EventHandler(this.btnInserirManual_Click);
             // 

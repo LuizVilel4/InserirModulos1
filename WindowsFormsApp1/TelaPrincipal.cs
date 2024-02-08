@@ -70,7 +70,7 @@ namespace WindowsFormsApp1
             catch (Exception ex)
             {
 
-                Console.WriteLine($"Erro ao desserializar o arquivo: {ex.Message}");
+                Console.WriteLine($"Erro ao carregar o arquivo: {ex.Message}");
                 return null;
             }
 
@@ -267,8 +267,8 @@ SELECT * FROM custom WHERE strkey like '%{q}%'
                         ListViewItem item = new ListViewItem(chave);
                         item.SubItems.Add(valor);
 
-                       
                         listModulosAtivos.Items.Add(item);
+
                     }, dbc2);
                 }
 
@@ -346,6 +346,7 @@ SELECT * FROM custom WHERE strkey like '%{q}%'
         {
             returnList();
             BuscarProduto();
+          
         }
 
         private void btnInserir_Click(object sender, EventArgs e)
